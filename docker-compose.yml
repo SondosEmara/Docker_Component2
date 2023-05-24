@@ -1,0 +1,17 @@
+version: '3'
+services:
+
+  service1:
+    image: sondos2002/component1
+    volumes:
+        - datashared:/app/data
+        - ./Data:/app/data/batch
+        
+  service2:
+    image: sondos2002/component2
+    volumes:
+      - datashared:/app/data
+      - ./Data:/app/data/batch
+volumes:
+  datashared:
+  
