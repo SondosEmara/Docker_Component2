@@ -1,5 +1,5 @@
 
-name: Component1 Build and Push To DockerHub
+name: Component2 Build and Push To DockerHub
 
 
 on:
